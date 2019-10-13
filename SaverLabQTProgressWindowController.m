@@ -57,10 +57,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     
-  createMovieFromImageEnumerator(outputMovieFile, 
-                                 [[[SaverLabImageEnumerator alloc] initWithPath:imagesDirectory] autorelease], 
-                                 frameLength, 
-                                 self);
+//  createMovieFromImageEnumerator(outputMovieFile, 
+//                                 [[[SaverLabImageEnumerator alloc] initWithPath:imagesDirectory] autorelease], 
+//                                 frameLength, 
+//                                 self);
                                  
   if (deleteImagesDirectoryWhenFinished) {
     [[NSFileManager defaultManager] removeFileAtPath:imagesDirectory handler:nil];

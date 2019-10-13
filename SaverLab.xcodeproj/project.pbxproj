@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D31EBA1A0A282EAA00E099FD /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31EBA190A282EAA00E099FD /* AGL.framework */; };
-		D35D21ED0B6717710060BF50 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35D21EC0B6717700060BF50 /* Sparkle.framework */; };
-		D35D222B0B6718160060BF50 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35D21EC0B6717700060BF50 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D35D22470B672D7C0060BF50 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D35D22460B672D7C0060BF50 /* Localizable.strings */; };
 		D38070400B642B3C00EE5B49 /* SaverLabMethodSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = D380703E0B642B3C00EE5B49 /* SaverLabMethodSwizzler.h */; };
 		D38070410B642B3C00EE5B49 /* SaverLabMethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = D380703F0B642B3C00EE5B49 /* SaverLabMethodSwizzler.m */; };
@@ -54,23 +52,9 @@
 		D3FB5D3F0935973500D0B2C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D3FB5D400935973500D0B2C4 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017AF4D9006EBDA3C0A80002 /* ScreenSaver.framework */; };
 		D3FB5D410935973500D0B2C4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB90036008A792A7F000001 /* OpenGL.framework */; };
-		D3FB5D420935973500D0B2C4 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F577A35A0143638801000001 /* QuickTime.framework */; };
 		D3FB5D430935973500D0B2C4 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565BC2903A9A7CA01A80032 /* Carbon.framework */; };
 		D3FB5D440935973500D0B2C4 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39CBD8A082DC17A00D1B8D4 /* QTKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		D35D22200B67179B0060BF50 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D35D222B0B6718160060BF50 /* Sparkle.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		017AF4D9006EBDA3C0A80002 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
@@ -136,11 +120,9 @@
 				D3FB5D3F0935973500D0B2C4 /* Cocoa.framework in Frameworks */,
 				D3FB5D400935973500D0B2C4 /* ScreenSaver.framework in Frameworks */,
 				D3FB5D410935973500D0B2C4 /* OpenGL.framework in Frameworks */,
-				D3FB5D420935973500D0B2C4 /* QuickTime.framework in Frameworks */,
 				D3FB5D430935973500D0B2C4 /* Carbon.framework in Frameworks */,
 				D3FB5D440935973500D0B2C4 /* QTKit.framework in Frameworks */,
 				D31EBA1A0A282EAA00E099FD /* AGL.framework in Frameworks */,
-				D35D21ED0B6717710060BF50 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +299,6 @@
 				D3FB5D2B0935973500D0B2C4 /* Sources */,
 				D3FB5D3E0935973500D0B2C4 /* Frameworks */,
 				D3FB5D450935973500D0B2C4 /* Rez */,
-				D35D22200B67179B0060BF50 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -341,6 +322,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* ScreenSaverShell */;
