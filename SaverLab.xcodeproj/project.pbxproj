@@ -75,7 +75,6 @@
 		D31EBA190A282EAA00E099FD /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
 		D3549E970823594E0012243F /* SaverLabQCPlayerViewWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaverLabQCPlayerViewWrapper.h; sourceTree = "<group>"; };
 		D3549E980823594E0012243F /* SaverLabQCPlayerViewWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaverLabQCPlayerViewWrapper.m; sourceTree = "<group>"; };
-		D35D21EC0B6717700060BF50 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		D35D22440B672D760060BF50 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D380703E0B642B3C00EE5B49 /* SaverLabMethodSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaverLabMethodSwizzler.h; sourceTree = "<group>"; };
 		D380703F0B642B3C00EE5B49 /* SaverLabMethodSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaverLabMethodSwizzler.m; sourceTree = "<group>"; };
@@ -138,7 +137,6 @@
 				0CB90036008A792A7F000001 /* OpenGL.framework */,
 				F577A35A0143638801000001 /* QuickTime.framework */,
 				F565BC2903A9A7CA01A80032 /* Carbon.framework */,
-				D35D21EC0B6717700060BF50 /* Sparkle.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
